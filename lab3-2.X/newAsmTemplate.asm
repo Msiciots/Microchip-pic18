@@ -1,0 +1,22 @@
+LIST p=18f4520		
+#include<p18f4520.inc>		
+	
+Initial:	org 	0x00		
+	clrf LATA
+START:
+	MOVLW 0X00
+
+LOOP:	ADDLW 0X01
+	ADDWF LATA
+	BNOV 4
+	NOP
+	GOTO ROTATE
+	NOP
+	NOP
+	NOP
+	GOTO Initial
+ROTATE:
+	MOVLW 0XBF
+	MOVWF LATB
+	RLCF LATB,0
+	end

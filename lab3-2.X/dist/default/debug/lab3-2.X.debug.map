@@ -1,0 +1,38 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Thu Oct 18 17:12:21 2018
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000020
+                   .cinit    romdata   0x000020    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000021      
+            34 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  Initial   0x000000    program     static D:\micro_control_LAB\lab3-2.X\newAsmTemplate.asm
+                     LOOP   0x000004    program     static D:\micro_control_LAB\lab3-2.X\newAsmTemplate.asm
+                   ROTATE   0x00001a    program     static D:\micro_control_LAB\lab3-2.X\newAsmTemplate.asm
+                    START   0x000002    program     static D:\micro_control_LAB\lab3-2.X\newAsmTemplate.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  Initial   0x000000    program     static D:\micro_control_LAB\lab3-2.X\newAsmTemplate.asm
+                    START   0x000002    program     static D:\micro_control_LAB\lab3-2.X\newAsmTemplate.asm
+                     LOOP   0x000004    program     static D:\micro_control_LAB\lab3-2.X\newAsmTemplate.asm
+                   ROTATE   0x00001a    program     static D:\micro_control_LAB\lab3-2.X\newAsmTemplate.asm
+
+
