@@ -1,0 +1,3 @@
+Warning[205] D:\MICRO_CONTROL_LAB\LAB4-2.X\NEWASMTEMPLATE.ASM 1 : Found directive in column 1. (LIST)
+Warning[207] D:\MICRO_CONTROL_LAB\LAB4-2.X\NEWASMTEMPLATE.ASM 5 : Found label after column 1. (mclear)
+Warning[207] D:\MICRO_CONTROL_LAB\LAB4-2.X\NEWASMTEMPLATE.ASM 23 : Found label after column 1. (initail)

@@ -1,0 +1,8 @@
+Warning[205] D:\MICRO_CONTROL_LAB\LAB4-1.X\NEWASMTEMPLATE.ASM 1 : Found directive in column 1. (LIST)
+Warning[203] D:\MICRO_CONTROL_LAB\LAB4-1.X\NEWASMTEMPLATE.ASM 10 : Found opcode in column 1. (goto)
+Warning[226] D:\MICRO_CONTROL_LAB\LAB4-1.X\NEWASMTEMPLATE.ASM 19 : Destination address must be word aligned
+Warning[206] D:\MICRO_CONTROL_LAB\LAB4-1.X\NEWASMTEMPLATE.ASM 22 : Found call to macro in column 1. (MOVLF)
+Warning[206] D:\MICRO_CONTROL_LAB\LAB4-1.X\NEWASMTEMPLATE.ASM 23 : Found call to macro in column 1. (MOVLF)
+Warning[203] D:\MICRO_CONTROL_LAB\LAB4-1.X\NEWASMTEMPLATE.ASM 24 : Found opcode in column 1. (clrf)
+Warning[206] D:\MICRO_CONTROL_LAB\LAB4-1.X\NEWASMTEMPLATE.ASM 25 : Found call to macro in column 1. (MOVLF)
+Warning[203] D:\MICRO_CONTROL_LAB\LAB4-1.X\NEWASMTEMPLATE.ASM 26 : Found opcode in column 1. (RCALL)
