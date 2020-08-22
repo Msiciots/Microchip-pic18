@@ -20,3 +20,9 @@ P.S. The implementation are limited to AND, OR and XOR operations.
 #### Lab3-2
 Add from 1,2, ... to overflow and check the relative register status.  
 Practice rotating with carry using RLCF and RRCF instructions.
+### Lab4
+Macro and subroutine.
+#### Lab4-1
+Compute Fibonacci sequence for N = 9
+#### Lab4-2
+Implement a stack to simulate function call procedure.
