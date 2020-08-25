@@ -26,3 +26,6 @@ Macro and subroutine.
 Compute Fibonacci sequence for N = 9
 #### Lab4-2
 Implement a stack to simulate function call procedure.
+### Lab5
+Mixing C with assembly language.  
+Write a multiplication library in assembly language, and call it in C main function.
