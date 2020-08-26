@@ -29,3 +29,6 @@ Implement a stack to simulate function call procedure.
 ### Lab5
 Mixing C with assembly language.  
 Write a multiplication library in assembly language, and call it in C main function.
+### Lab6
+Let a LED blink, and each time interval is exactly 1 second.  
+P.S. Count the cpu cycle.
