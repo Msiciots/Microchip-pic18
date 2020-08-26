@@ -1,0 +1,55 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Thu Nov 08 17:38:21 2018
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x00007c
+                   .cinit    romdata   0x00007c    program   0x000002
+                    dbgP0       code   0x007dc0    program   0x000240
+.config_300001_BUILD/DEFAULT/DEBUG/NEWASMTEMPLA    romdata   0x300001    program   0x000001
+.config_300003_BUILD/DEFAULT/DEBUG/NEWASMTEMPLA    romdata   0x300003    program   0x000001
+.config_300006_BUILD/DEFAULT/DEBUG/NEWASMTEMPLA    romdata   0x300006    program   0x000001
+                    dbgD0      udata   0x0005f4       data   0x00000c
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x00007d      
+                            0x007dc0    0x007fff      
+                            0x300001    0x300001      
+                            0x300003    0x300003      
+                            0x300006    0x300006      
+            705 out of 33048 program addresses used, program memory utilization is 2%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    LOOPL   0x000014    program     static D:\micro_control_LAB\lab6.X\newAsmTemplate.asm
+                    LOOPR   0x000054    program     static D:\micro_control_LAB\lab6.X\newAsmTemplate.asm
+                  _1LOOP1   0x00001e    program     static D:\micro_control_LAB\lab6.X\newAsmTemplate.asm
+                  _1LOOP2   0x00001a    program     static D:\micro_control_LAB\lab6.X\newAsmTemplate.asm
+                  _2LOOP1   0x000040    program     static D:\micro_control_LAB\lab6.X\newAsmTemplate.asm
+                  _2LOOP2   0x00003c    program     static D:\micro_control_LAB\lab6.X\newAsmTemplate.asm
+                  _3LOOP1   0x00005e    program     static D:\micro_control_LAB\lab6.X\newAsmTemplate.asm
+                  _3LOOP2   0x00005a    program     static D:\micro_control_LAB\lab6.X\newAsmTemplate.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    LOOPL   0x000014    program     static D:\micro_control_LAB\lab6.X\newAsmTemplate.asm
+                  _1LOOP2   0x00001a    program     static D:\micro_control_LAB\lab6.X\newAsmTemplate.asm
+                  _1LOOP1   0x00001e    program     static D:\micro_control_LAB\lab6.X\newAsmTemplate.asm
+                  _2LOOP2   0x00003c    program     static D:\micro_control_LAB\lab6.X\newAsmTemplate.asm
+                  _2LOOP1   0x000040    program     static D:\micro_control_LAB\lab6.X\newAsmTemplate.asm
+                    LOOPR   0x000054    program     static D:\micro_control_LAB\lab6.X\newAsmTemplate.asm
+                  _3LOOP2   0x00005a    program     static D:\micro_control_LAB\lab6.X\newAsmTemplate.asm
+                  _3LOOP1   0x00005e    program     static D:\micro_control_LAB\lab6.X\newAsmTemplate.asm
+
+
