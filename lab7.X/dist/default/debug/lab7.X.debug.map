@@ -1,0 +1,77 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Thu Nov 15 16:35:24 2018
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000002    program   0x000002
+                   .org_1       code   0x000008    program   0x000002
+                   .org_2       code   0x000020    program   0x00009a
+                    dbgP0       code   0x007dc0    program   0x000240
+.config_300001_BUILD/DEFAULT/DEBUG/NEWASMTEMPLA    romdata   0x300001    program   0x000001
+.config_300002_BUILD/DEFAULT/DEBUG/NEWASMTEMPLA    romdata   0x300002    program   0x000001
+.config_300003_BUILD/DEFAULT/DEBUG/NEWASMTEMPLA    romdata   0x300003    program   0x000001
+.config_300005_BUILD/DEFAULT/DEBUG/NEWASMTEMPLA    romdata   0x300005    program   0x000001
+.config_300006_BUILD/DEFAULT/DEBUG/NEWASMTEMPLA    romdata   0x300006    program   0x000001
+.config_300008_BUILD/DEFAULT/DEBUG/NEWASMTEMPLA    romdata   0x300008    program   0x000001
+.config_300009_BUILD/DEFAULT/DEBUG/NEWASMTEMPLA    romdata   0x300009    program   0x000001
+.config_30000A_BUILD/DEFAULT/DEBUG/NEWASMTEMPLA    romdata   0x30000a    program   0x000001
+.config_30000B_BUILD/DEFAULT/DEBUG/NEWASMTEMPLA    romdata   0x30000b    program   0x000001
+.config_30000C_BUILD/DEFAULT/DEBUG/NEWASMTEMPLA    romdata   0x30000c    program   0x000001
+.config_30000D_BUILD/DEFAULT/DEBUG/NEWASMTEMPLA    romdata   0x30000d    program   0x000001
+                    dbgD0      udata   0x0005f4       data   0x00000c
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000003      
+                            0x000008    0x000009      
+                            0x000020    0x0000b9      
+                            0x007dc0    0x007fff      
+                            0x300001    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            747 out of 33048 program addresses used, program memory utilization is 2%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  Hi_ISRs   0x0000b2    program     static D:\micro_control_LAB\lab7.X\newAsmTemplate.asm
+                     Init   0x000030    program     static D:\micro_control_LAB\lab7.X\newAsmTemplate.asm
+                     Main   0x000020    program     static D:\micro_control_LAB\lab7.X\newAsmTemplate.asm
+                Null_Loop   0x000024    program     static D:\micro_control_LAB\lab7.X\newAsmTemplate.asm
+                  _1LOOP1   0x00004a    program     static D:\micro_control_LAB\lab7.X\newAsmTemplate.asm
+                  _1LOOP2   0x000046    program     static D:\micro_control_LAB\lab7.X\newAsmTemplate.asm
+                  _2LOOP1   0x000066    program     static D:\micro_control_LAB\lab7.X\newAsmTemplate.asm
+                  _2LOOP2   0x000062    program     static D:\micro_control_LAB\lab7.X\newAsmTemplate.asm
+                  _3LOOP1   0x000082    program     static D:\micro_control_LAB\lab7.X\newAsmTemplate.asm
+                  _3LOOP2   0x00007e    program     static D:\micro_control_LAB\lab7.X\newAsmTemplate.asm
+                  _4LOOP1   0x00009e    program     static D:\micro_control_LAB\lab7.X\newAsmTemplate.asm
+                  _4LOOP2   0x00009a    program     static D:\micro_control_LAB\lab7.X\newAsmTemplate.asm
+                    light   0x000040    program     static D:\micro_control_LAB\lab7.X\newAsmTemplate.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                     Main   0x000020    program     static D:\micro_control_LAB\lab7.X\newAsmTemplate.asm
+                Null_Loop   0x000024    program     static D:\micro_control_LAB\lab7.X\newAsmTemplate.asm
+                     Init   0x000030    program     static D:\micro_control_LAB\lab7.X\newAsmTemplate.asm
+                    light   0x000040    program     static D:\micro_control_LAB\lab7.X\newAsmTemplate.asm
+                  _1LOOP2   0x000046    program     static D:\micro_control_LAB\lab7.X\newAsmTemplate.asm
+                  _1LOOP1   0x00004a    program     static D:\micro_control_LAB\lab7.X\newAsmTemplate.asm
+                  _2LOOP2   0x000062    program     static D:\micro_control_LAB\lab7.X\newAsmTemplate.asm
+                  _2LOOP1   0x000066    program     static D:\micro_control_LAB\lab7.X\newAsmTemplate.asm
+                  _3LOOP2   0x00007e    program     static D:\micro_control_LAB\lab7.X\newAsmTemplate.asm
+                  _3LOOP1   0x000082    program     static D:\micro_control_LAB\lab7.X\newAsmTemplate.asm
+                  _4LOOP2   0x00009a    program     static D:\micro_control_LAB\lab7.X\newAsmTemplate.asm
+                  _4LOOP1   0x00009e    program     static D:\micro_control_LAB\lab7.X\newAsmTemplate.asm
+                  Hi_ISRs   0x0000b2    program     static D:\micro_control_LAB\lab7.X\newAsmTemplate.asm
+
+
