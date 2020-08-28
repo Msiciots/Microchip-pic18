@@ -32,3 +32,6 @@ Write a multiplication library in assembly language, and call it in C main funct
 ### Lab6
 Let a LED blink, and each time interval is exactly 1 second.  
 P.S. Count the cpu cycle.
+### Lab7
+The application of interrupt.   
+Light up LEDs(RD0~RD3) for 0.5 second in order after pushing an external button.
