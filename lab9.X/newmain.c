@@ -55,14 +55,11 @@ void main()
   int i=15;
   //set trisD
   TRISD=0XFF;
-  
  // PORTD=0XFF;
-  
   OSCCONbits.IRCF2=0;       //set pwm period
   OSCCONbits.IRCF1=1;
   OSCCONbits.IRCF0=1;                 
   PWM1_Init(155); 
-  
   do
   {     
     if(RD0 == 0 && i<75)
