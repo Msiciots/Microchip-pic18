@@ -37,4 +37,6 @@ The application of interrupt.
 Light up LEDs(RD0~RD3) for 0.5 second in order after pushing an external button.
 ### Lab8
 Use timer and interrupt to control LEDs.  
-Continually light up LEDs(RD0~RD3) for 2 second in order. 
+Continually light up LEDs(RD0~RD3) for 2 second in order.
+### Lab9
+Use PWM to control servo motor.
