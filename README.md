@@ -40,3 +40,6 @@ Use timer and interrupt to control LEDs.
 Continually light up LEDs(RD0~RD3) for 2 second in order.
 ### Lab9
 Use PWM to control servo motor.
+### Lab10
+Use CCP2 to trigger ADC(Analog-to-Digital Converter).
+Control variable resistor and store each result of ADC sample.
