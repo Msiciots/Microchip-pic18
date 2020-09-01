@@ -45,5 +45,5 @@ Use CCP2 to trigger ADC(Analog-to-Digital Converter).
 Control variable resistor and store each result of ADC sample.
 ### Lab11
 An implementation of UART.  
-Mode 1 : Just print "Hello world!"
+Mode 1 : Just print "Hello world!"  
 Mode 2 : Print the voltage on real time by adjusting variable resistor controller.
